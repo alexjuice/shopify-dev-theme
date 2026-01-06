@@ -1,0 +1,50 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+# Shopify CLI
+# =========================
+.shopify/
+shopify.theme.toml
+shopify.app.toml
+.env
+.env.*
+
+# =========================
+# Node / Build
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Theme build artifacts
+# (якщо використовуєш build step)
+# =========================
+dist/
+build/
+.tmp/
+.cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# System / Backup files
+# =========================
+*.swp
+*.swo
+*~
